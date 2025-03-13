@@ -1,0 +1,503 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.contener{
+    width: 80%;
+    margin: auto;
+
+}
+.clear{
+    clear: both;
+}
+
+/* start Navbar */
+#nav{
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.292);
+    /* padding-inline: 170px; */
+    padding-top: 15px;
+
+    position: fixed;
+    right: 0;
+    left: 0;
+}
+#nav img{
+    width: 200px;
+    float: left;
+}
+#nav ul {
+    float: right;
+    /* width: 50%; */
+    list-style: none;
+    padding-block: 15px;
+}
+#nav ul li{
+        display: inline;
+        padding-inline: 10px;
+}
+#nav ul li a{
+    color: white;
+    font-size: 20px;
+    font-family: "Alegreya", serif;
+    text-transform: capitalize;
+}
+/* end Navbar */
+
+
+
+
+/* start Header  */
+.header{
+    background-image:url(../images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    overflow: auto;
+
+
+    }
+
+.header-contant{
+    font-family: "Alegreya Sans", sans-serif;
+    width: 800px;
+    text-align: center;
+    margin: 250px auto;    
+}
+.header-contant .Welcome{
+    font-family: "Alegreya Sans", sans-serif;
+        font-size: 25px;
+        margin-bottom: 15px;   
+    }
+.header-contant h1{
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    font-size: 76px;
+    margin-bottom: 20px ;
+    
+}
+
+.header-contant .p2 {
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+    
+}
+
+.header-button{
+    margin-top: 30px;
+}
+
+button{
+    background-color: #8e7754;
+    padding: 15px 30px;
+    border: 0 solid white;
+    color: white;
+    font-family: "Alegreya Sans", sans-serif;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+
+.contactUs{
+    background-color:transparent;
+        border: solid white;
+}
+
+.learnMore{
+    border: 0;
+    padding: 18px 33px;
+    margin-right: 10px;
+}
+.learnMore:hover,
+.contactUs:hover{
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+}
+/* end header */
+/* start about section */
+.about{
+    padding-block: 100px;
+    line-height: 31.62px;
+    
+}
+.about-img{
+    width: 50%;
+    float: left;
+}
+.about-img img{
+    width: 90%;
+}
+
+.about-details{
+    width: 50%;
+    float: left;
+    padding-top: 50px;
+    font-family: "Alegreya Sans", sans-serif;
+    padding-left: 50px;
+}
+.about-details h2{
+    margin-bottom: 25px;
+    font-family: "Alegreya";
+    line-height: 44.16px ;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.about-details p{
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 19px;
+    line-height: 31.62px;
+    color: #686868;
+
+}
+.about-details ul {
+    list-style: none;
+    margin-top: 25px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.about-details ul li{
+    color: #686868;
+    font-family: "Alegreya Sans", sans-serif;
+    font-weight: 400;
+    padding-left:5px ;
+}
+
+.about-details ul li i img {
+    width: 45px;
+    height: 45px;
+    background-color: #ffffff;
+    border: 1px solid #dddbdb;
+    border-radius: 50%;
+    margin-right: 20px;
+
+}
+
+/* end about section */
+
+/*  start Location section */
+.location{
+    background-color: #F8F8F8;
+    padding-block: 100px;
+}
+.location-img {
+        width: 50%;
+        float: left;
+        padding-left: 50px;
+}
+
+.location-img img{
+    width: 100%;
+}
+
+.location-details{
+    width: 50%;
+    float: left;
+    padding-block: 100px;
+    padding-inline: 40px;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 17px;
+    line-height: 31.62px;
+}
+.location-details h2 {
+        font-family: "Alegreya";
+        font-size: 32px;
+        line-height: 44.16px;
+        margin-bottom: 25px;
+        font-weight: 400;
+        color: #303030;
+
+}
+.location-details .first-p , .sec-p{
+        font-family: "Alegreya Sans", sans-serif;
+        color: #686868;
+        font-size: 18px;
+        line-height: 31.62px;
+        margin-bottom: 20px;
+        font-weight: 400 ;
+}
+.location-details .sec-p {
+    margin: 0;
+}
+/*  end Location section */
+
+
+/*  start 3th section */
+
+.ourBaking{
+    text-align: center;
+    font-family: "Alegreya Sans", sans-serif;
+    background-color: white;
+    padding-block: 100px;
+}
+.ourBaking h3{
+    font-family: "Alegreya", serif;
+    font-size: 30px;
+    line-height: 41.4px;
+    font-weight: 400;
+}
+.ourBaking .p-titile{
+    font-family: "Alegreya Sans";
+    font-size: 20px;
+    font-weight: 400;
+    color: #888888;
+    margin: 17px 0px 50px 0px;
+}
+
+.bakery{
+    float: left;
+        width: 33.3%;
+        padding: 10px;
+        text-align: center;
+}
+.bakery img{
+    width: 400px;
+    height: 300px;
+}
+
+.bakery h4{
+    font-family: "Alegreya", serif;
+    color: #30333d;
+    line-height: 31.36px;
+    font-size: 22px;
+    font-weight: 400;
+    vertical-align: baseline;
+    padding-block: 25px;
+}
+
+.bakery .bakery-details{
+    font-family: "Alegreya Sans";
+    vertical-align: baseline;
+    line-height: 31.62px;
+    font-size: 20px;
+        font-weight: 400;
+        color: #686868;
+}
+
+/* end 3th section */
+
+/* start contact-info section */
+.contact-info{
+    background-color: #F8F8F8;
+    padding-block: 100px;
+
+}
+.contact-info .info {
+    font-family: "Alegreya Sans";
+    width: 50%;
+    float: left;
+    padding: 20px 15px 0px;
+}
+
+.contact-info .info  h2{
+    font-family: "Alegreya", serif;
+    font-size: 32px;
+    line-height: 44.16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    color: #303030;
+}
+.contact-info .info .contant ,
+.contant-detalis{
+    font-family: "Alegreya Sans", sans-serif;
+    color: #686868 ;
+    font-size: 17px;
+    line-height: 31.62px;
+    vertical-align: baseline;
+    margin-right: 70px ;
+}
+.contact-info .info .our-contant {
+    margin-top: 30px;
+}
+
+.contact-info .info .contant-list li{
+    list-style: none;
+    font-family: "Alegreya Sans", sans-serif;
+    color: #686868;
+    font-size: 17px;
+    line-height: 1.5;
+    vertical-align: baseline;
+    padding: 15px 0px;
+    
+}
+
+
+.contact-info .info .contant-list li i img{
+    width: 45px;
+    height: 45px;
+    background-color: #8E7754;
+    border-radius: 50%;
+    margin-right: 20px;
+    
+}
+
+
+.contact-info .map {
+    width: 50%;
+    float: left;
+    padding-inline: 15PX;
+}
+
+.contact-info .map iframe {
+    width: 100%;
+    height: 600px;
+}
+
+/* end contact-info section */
+
+/* start final-section section */
+.final-section{
+    background-color: #403D38;
+    padding-block: 60px;
+}
+.info{
+    float: left;
+    width: 25%;
+    color: #FFFFFF;
+    padding-inline: 25px;
+}
+
+.info h4{
+    color: #FFFFFF;
+    font-family: "Alegreya", serif;
+    font-size: 18px;
+    margin-bottom: 25px;
+    line-height: 25px;
+}
+.about-list .info .f-p , .s-p{
+    font-family: "Alegreya Sans", sans-serif;
+    color: #969696;
+    font-size: 16px;
+    line-height: 29.62px;
+    vertical-align: baseline;
+    margin-bottom: 20px;
+}
+
+.info ul{
+    list-style: none;
+    font-family: "Alegreya Sans", sans-serif;
+    color: #969696;
+    text-decoration: none;
+}
+.Why-special  .info ul li ,
+.opening-hours .info ul li{
+    font-size: 16px;
+    line-height: 31.62px;
+    border-bottom: 0.5px solid #88888824 ;
+    margin-bottom: 6px;
+    padding-bottom: 7px;
+}
+
+.Why-special ul li::before ,
+.opening-hours ul li::before {
+    font-family: "Alegreya Sans", sans-serif;
+    content: ">";
+    margin-right: 8px;
+    color: #969696;    
+
+}
+
+.contact-detalis .info{
+    background-image: url(../images/contact-details-map.png);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position:center;
+
+}
+.contact-detalis  .info .detalis{
+    font-size: 18px;
+        line-height: 35.62px;
+        border-bottom: 0.5px solid #88888824;
+        margin-bottom: 6px;
+        padding-bottom: 7px;
+        color: #969696;
+}
+
+.contact-detalis .info .detalis a{
+        color: #969696;
+}
+
+.contact-detalis .info .detalis span i img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 5px;
+
+}
+
+/* end final-section section */
+
+
+/* start floot section */
+.floot{
+    background-color: #353330;
+    color: #797979;
+    text-align: center;
+    margin-inline: auto;
+    padding-block:  50px; 
+}
+.floot .floot-img{
+    margin: 10px 0px 25px;
+}
+
+
+.floot .floot-img img {
+    width: 30%;
+}
+
+
+.floot .floot-text {
+    margin-top: 5px;
+    color: #777777;
+    font-family: "Alegreya Sans", sans-serif;
+    line-height: 28px;
+    font-size: 15px;
+}
+
+.floot-links{
+    margin-top: 15px;
+    padding-top: 8px;
+    color: #797979;
+    font-size: 15px;
+}
+.floot-links img {
+    width: 50px;
+    height: 50px;
+    background-color:#403d38d8;
+    border-radius: 50%;
+    margin: 3px;
+}
+.facebook,
+.google,
+.linkedin,
+.twitter{
+    transition: background-color 1s;
+}
+
+
+.facebook:hover {
+    background-color:#3b5998;
+}
+
+.google:hover {
+    background-color: #dd4b39;
+}
+.linkedin:hover {
+    background-color: #026492;
+}
+.twitter:hover {
+    background-color: #00ACED;
+}
+
+
+/* end floot section */
