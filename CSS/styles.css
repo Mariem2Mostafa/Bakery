@@ -43,7 +43,7 @@
 }
 #nav ul li a{
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     font-family: "Alegreya", serif;
     text-transform: capitalize;
 }
@@ -68,7 +68,7 @@
     font-family: "Alegreya Sans", sans-serif;
     width: 800px;
     text-align: center;
-    margin: 250px auto;    
+    margin: 200px auto;    
 }
 .header-contant .Welcome{
     font-family: "Alegreya Sans", sans-serif;
